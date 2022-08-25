@@ -1,0 +1,474 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A37CD9228A39260006F80D4 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37CD9128A39260006F80D4 /* ProductListView.swift */; };
+		4A37CD9428A39272006F80D4 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37CD9328A39272006F80D4 /* ProductDetailView.swift */; };
+		4A5A1716289A3F400084B2AA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A1715289A3F400084B2AA /* Colors.swift */; };
+		4A5A171B289A4AF70084B2AA /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A171A289A4AF70084B2AA /* TextField.swift */; };
+		4A5A171D289A51B80084B2AA /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A171C289A51B80084B2AA /* Button.swift */; };
+		4A5A171F289A61F20084B2AA /* ForgotPasswordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A171E289A61F20084B2AA /* ForgotPasswordView.swift */; };
+		4A5A1721289A74AA0084B2AA /* RegisterScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A1720289A74AA0084B2AA /* RegisterScreenView.swift */; };
+		4A5A1723289A7CED0084B2AA /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A1722289A7CED0084B2AA /* HomeScreenView.swift */; };
+		4A5A1725289A7D010084B2AA /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A1724289A7D010084B2AA /* APIManager.swift */; };
+		4A5A1727289A7D0F0084B2AA /* APIServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A1726289A7D0F0084B2AA /* APIServices.swift */; };
+		4A5A1729289A819C0084B2AA /* UserDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A1728289A819C0084B2AA /* UserDataModels.swift */; };
+		4A5A172B289A81AC0084B2AA /* CartDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A172A289A81AC0084B2AA /* CartDataModels.swift */; };
+		4A5A172D289A81CD0084B2AA /* ProductDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A172C289A81CD0084B2AA /* ProductDataModels.swift */; };
+		4A5A172F289A81E60084B2AA /* OrderDataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A172E289A81E60084B2AA /* OrderDataModels.swift */; };
+		4A5A1731289A87320084B2AA /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A1730289A87320084B2AA /* HomeViewModel.swift */; };
+		4A5A1733289A874A0084B2AA /* RegisterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A1732289A874A0084B2AA /* RegisterViewModel.swift */; };
+		4A5A1735289BA2FE0084B2AA /* LoginScreenExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A1734289BA2FE0084B2AA /* LoginScreenExtension.swift */; };
+		4ACCBD49288EC13700B6096F /* NeostoreSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCBD48288EC13700B6096F /* NeostoreSwiftUIApp.swift */; };
+		4ACCBD4B288EC13700B6096F /* LoginScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ACCBD4A288EC13700B6096F /* LoginScreenView.swift */; };
+		4ACCBD4D288EC13B00B6096F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACCBD4C288EC13B00B6096F /* Assets.xcassets */; };
+		4ACCBD50288EC13B00B6096F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ACCBD4F288EC13B00B6096F /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A37CD9128A39260006F80D4 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
+		4A37CD9328A39272006F80D4 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		4A5A1715289A3F400084B2AA /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		4A5A171A289A4AF70084B2AA /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		4A5A171C289A51B80084B2AA /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		4A5A171E289A61F20084B2AA /* ForgotPasswordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForgotPasswordView.swift; sourceTree = "<group>"; };
+		4A5A1720289A74AA0084B2AA /* RegisterScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterScreenView.swift; sourceTree = "<group>"; };
+		4A5A1722289A7CED0084B2AA /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		4A5A1724289A7D010084B2AA /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		4A5A1726289A7D0F0084B2AA /* APIServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServices.swift; sourceTree = "<group>"; };
+		4A5A1728289A819C0084B2AA /* UserDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataModels.swift; sourceTree = "<group>"; };
+		4A5A172A289A81AC0084B2AA /* CartDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartDataModels.swift; sourceTree = "<group>"; };
+		4A5A172C289A81CD0084B2AA /* ProductDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDataModels.swift; sourceTree = "<group>"; };
+		4A5A172E289A81E60084B2AA /* OrderDataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderDataModels.swift; sourceTree = "<group>"; };
+		4A5A1730289A87320084B2AA /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		4A5A1732289A874A0084B2AA /* RegisterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewModel.swift; sourceTree = "<group>"; };
+		4A5A1734289BA2FE0084B2AA /* LoginScreenExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenExtension.swift; sourceTree = "<group>"; };
+		4ACCBD45288EC13700B6096F /* NeostoreSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NeostoreSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ACCBD48288EC13700B6096F /* NeostoreSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeostoreSwiftUIApp.swift; sourceTree = "<group>"; };
+		4ACCBD4A288EC13700B6096F /* LoginScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreenView.swift; sourceTree = "<group>"; };
+		4ACCBD4C288EC13B00B6096F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ACCBD4F288EC13B00B6096F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ACCBD42288EC13700B6096F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A5A170E289A3E420084B2AA /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				4A5A171E289A61F20084B2AA /* ForgotPasswordView.swift */,
+				4ACCBD4A288EC13700B6096F /* LoginScreenView.swift */,
+				4A5A1720289A74AA0084B2AA /* RegisterScreenView.swift */,
+				4A5A1722289A7CED0084B2AA /* HomeScreenView.swift */,
+				4A37CD9128A39260006F80D4 /* ProductListView.swift */,
+				4A37CD9328A39272006F80D4 /* ProductDetailView.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4A5A170F289A3E550084B2AA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4A5A1730289A87320084B2AA /* HomeViewModel.swift */,
+				4A5A1732289A874A0084B2AA /* RegisterViewModel.swift */,
+				4A5A1734289BA2FE0084B2AA /* LoginScreenExtension.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		4A5A1710289A3E620084B2AA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A5A1728289A819C0084B2AA /* UserDataModels.swift */,
+				4A5A172A289A81AC0084B2AA /* CartDataModels.swift */,
+				4A5A172C289A81CD0084B2AA /* ProductDataModels.swift */,
+				4A5A172E289A81E60084B2AA /* OrderDataModels.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A5A1711289A3E6E0084B2AA /* API */ = {
+			isa = PBXGroup;
+			children = (
+				4A5A1724289A7D010084B2AA /* APIManager.swift */,
+				4A5A1726289A7D0F0084B2AA /* APIServices.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		4A5A1712289A3E860084B2AA /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				4A5A1719289A4AE20084B2AA /* Customization */,
+				4A5A1714289A3F240084B2AA /* Extensions */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		4A5A1713289A3E910084B2AA /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				4ACCBD48288EC13700B6096F /* NeostoreSwiftUIApp.swift */,
+				4ACCBD4C288EC13B00B6096F /* Assets.xcassets */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		4A5A1714289A3F240084B2AA /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4A5A1715289A3F400084B2AA /* Colors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4A5A1719289A4AE20084B2AA /* Customization */ = {
+			isa = PBXGroup;
+			children = (
+				4A5A171A289A4AF70084B2AA /* TextField.swift */,
+				4A5A171C289A51B80084B2AA /* Button.swift */,
+			);
+			path = Customization;
+			sourceTree = "<group>";
+		};
+		4ACCBD3C288EC13700B6096F = {
+			isa = PBXGroup;
+			children = (
+				4ACCBD47288EC13700B6096F /* NeostoreSwiftUI */,
+				4ACCBD46288EC13700B6096F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4ACCBD46288EC13700B6096F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ACCBD45288EC13700B6096F /* NeostoreSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ACCBD47288EC13700B6096F /* NeostoreSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				4A5A1713289A3E910084B2AA /* Utility */,
+				4A5A1712289A3E860084B2AA /* Common */,
+				4A5A1711289A3E6E0084B2AA /* API */,
+				4A5A1710289A3E620084B2AA /* Model */,
+				4A5A170F289A3E550084B2AA /* ViewModel */,
+				4A5A170E289A3E420084B2AA /* ViewController */,
+				4ACCBD4E288EC13B00B6096F /* Preview Content */,
+			);
+			path = NeostoreSwiftUI;
+			sourceTree = "<group>";
+		};
+		4ACCBD4E288EC13B00B6096F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4ACCBD4F288EC13B00B6096F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ACCBD44288EC13700B6096F /* NeostoreSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ACCBD53288EC13B00B6096F /* Build configuration list for PBXNativeTarget "NeostoreSwiftUI" */;
+			buildPhases = (
+				4ACCBD41288EC13700B6096F /* Sources */,
+				4ACCBD42288EC13700B6096F /* Frameworks */,
+				4ACCBD43288EC13700B6096F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NeostoreSwiftUI;
+			productName = NeostoreSwiftUI;
+			productReference = 4ACCBD45288EC13700B6096F /* NeostoreSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ACCBD3D288EC13700B6096F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4ACCBD44288EC13700B6096F = {
+						CreatedOnToolsVersion = 13.4;
+					};
+				};
+			};
+			buildConfigurationList = 4ACCBD40288EC13700B6096F /* Build configuration list for PBXProject "NeostoreSwiftUI" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ACCBD3C288EC13700B6096F;
+			productRefGroup = 4ACCBD46288EC13700B6096F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ACCBD44288EC13700B6096F /* NeostoreSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ACCBD43288EC13700B6096F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ACCBD50288EC13B00B6096F /* Preview Assets.xcassets in Resources */,
+				4ACCBD4D288EC13B00B6096F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ACCBD41288EC13700B6096F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A5A171D289A51B80084B2AA /* Button.swift in Sources */,
+				4ACCBD4B288EC13700B6096F /* LoginScreenView.swift in Sources */,
+				4A5A172F289A81E60084B2AA /* OrderDataModels.swift in Sources */,
+				4A5A1733289A874A0084B2AA /* RegisterViewModel.swift in Sources */,
+				4A5A1716289A3F400084B2AA /* Colors.swift in Sources */,
+				4A37CD9428A39272006F80D4 /* ProductDetailView.swift in Sources */,
+				4A5A1725289A7D010084B2AA /* APIManager.swift in Sources */,
+				4A37CD9228A39260006F80D4 /* ProductListView.swift in Sources */,
+				4A5A1727289A7D0F0084B2AA /* APIServices.swift in Sources */,
+				4A5A1723289A7CED0084B2AA /* HomeScreenView.swift in Sources */,
+				4ACCBD49288EC13700B6096F /* NeostoreSwiftUIApp.swift in Sources */,
+				4A5A171F289A61F20084B2AA /* ForgotPasswordView.swift in Sources */,
+				4A5A172D289A81CD0084B2AA /* ProductDataModels.swift in Sources */,
+				4A5A1729289A819C0084B2AA /* UserDataModels.swift in Sources */,
+				4A5A1721289A74AA0084B2AA /* RegisterScreenView.swift in Sources */,
+				4A5A171B289A4AF70084B2AA /* TextField.swift in Sources */,
+				4A5A1731289A87320084B2AA /* HomeViewModel.swift in Sources */,
+				4A5A1735289BA2FE0084B2AA /* LoginScreenExtension.swift in Sources */,
+				4A5A172B289A81AC0084B2AA /* CartDataModels.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4ACCBD51288EC13B00B6096F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ACCBD52288EC13B00B6096F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ACCBD54288EC13B00B6096F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeostoreSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeosoftTechnologies.NeostoreSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ACCBD55288EC13B00B6096F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NeostoreSwiftUI/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = NeosoftTechnologies.NeostoreSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ACCBD40288EC13700B6096F /* Build configuration list for PBXProject "NeostoreSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACCBD51288EC13B00B6096F /* Debug */,
+				4ACCBD52288EC13B00B6096F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ACCBD53288EC13B00B6096F /* Build configuration list for PBXNativeTarget "NeostoreSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ACCBD54288EC13B00B6096F /* Debug */,
+				4ACCBD55288EC13B00B6096F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4ACCBD3D288EC13700B6096F /* Project object */;
+}
