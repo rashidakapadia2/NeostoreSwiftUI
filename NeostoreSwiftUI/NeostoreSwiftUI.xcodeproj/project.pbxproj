@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18E3B9872A27659300CC1D04 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B9862A27659300CC1D04 /* Reachability.swift */; };
+		18E3B9892A27664500CC1D04 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B9882A27664500CC1D04 /* UserDefaults.swift */; };
+		18E3B98B2A27695100CC1D04 /* CustomErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B98A2A27695100CC1D04 /* CustomErrors.swift */; };
+		18E3B98E2A276A0500CC1D04 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B98D2A276A0500CC1D04 /* UserService.swift */; };
+		18E3B9902A276A9800CC1D04 /* ReactiveListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18E3B98F2A276A9800CC1D04 /* ReactiveListener.swift */; };
 		4A37CD9228A39260006F80D4 /* ProductListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37CD9128A39260006F80D4 /* ProductListView.swift */; };
 		4A37CD9428A39272006F80D4 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A37CD9328A39272006F80D4 /* ProductDetailView.swift */; };
 		4A5A1716289A3F400084B2AA /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5A1715289A3F400084B2AA /* Colors.swift */; };
@@ -31,6 +36,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		18E3B9862A27659300CC1D04 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		18E3B9882A27664500CC1D04 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		18E3B98A2A27695100CC1D04 /* CustomErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomErrors.swift; sourceTree = "<group>"; };
+		18E3B98D2A276A0500CC1D04 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		18E3B98F2A276A9800CC1D04 /* ReactiveListener.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactiveListener.swift; sourceTree = "<group>"; };
 		4A37CD9128A39260006F80D4 /* ProductListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListView.swift; sourceTree = "<group>"; };
 		4A37CD9328A39272006F80D4 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
 		4A5A1715289A3F400084B2AA /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
@@ -66,6 +76,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18E3B9852A27656D00CC1D04 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B9862A27659300CC1D04 /* Reachability.swift */,
+				18E3B9882A27664500CC1D04 /* UserDefaults.swift */,
+				18E3B98A2A27695100CC1D04 /* CustomErrors.swift */,
+				18E3B98F2A276A9800CC1D04 /* ReactiveListener.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		18E3B98C2A2769F200CC1D04 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				18E3B98D2A276A0500CC1D04 /* UserService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		4A5A170E289A3E420084B2AA /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
@@ -103,6 +132,7 @@
 		4A5A1711289A3E6E0084B2AA /* API */ = {
 			isa = PBXGroup;
 			children = (
+				18E3B98C2A2769F200CC1D04 /* Services */,
 				4A5A1724289A7D010084B2AA /* APIManager.swift */,
 				4A5A1726289A7D0F0084B2AA /* APIServices.swift */,
 			);
@@ -163,6 +193,7 @@
 		4ACCBD47288EC13700B6096F /* NeostoreSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				18E3B9852A27656D00CC1D04 /* Helper */,
 				4A5A1713289A3E910084B2AA /* Utility */,
 				4A5A1712289A3E860084B2AA /* Common */,
 				4A5A1711289A3E6E0084B2AA /* API */,
@@ -257,9 +288,12 @@
 				4A5A172F289A81E60084B2AA /* OrderDataModels.swift in Sources */,
 				4A5A1733289A874A0084B2AA /* RegisterViewModel.swift in Sources */,
 				4A5A1716289A3F400084B2AA /* Colors.swift in Sources */,
+				18E3B9892A27664500CC1D04 /* UserDefaults.swift in Sources */,
 				4A37CD9428A39272006F80D4 /* ProductDetailView.swift in Sources */,
+				18E3B98E2A276A0500CC1D04 /* UserService.swift in Sources */,
 				4A5A1725289A7D010084B2AA /* APIManager.swift in Sources */,
 				4A37CD9228A39260006F80D4 /* ProductListView.swift in Sources */,
+				18E3B98B2A27695100CC1D04 /* CustomErrors.swift in Sources */,
 				4A5A1727289A7D0F0084B2AA /* APIServices.swift in Sources */,
 				4A5A1723289A7CED0084B2AA /* HomeScreenView.swift in Sources */,
 				4ACCBD49288EC13700B6096F /* NeostoreSwiftUIApp.swift in Sources */,
@@ -267,9 +301,11 @@
 				4A5A172D289A81CD0084B2AA /* ProductDataModels.swift in Sources */,
 				4A5A1729289A819C0084B2AA /* UserDataModels.swift in Sources */,
 				4A5A1721289A74AA0084B2AA /* RegisterScreenView.swift in Sources */,
+				18E3B9902A276A9800CC1D04 /* ReactiveListener.swift in Sources */,
 				4A5A171B289A4AF70084B2AA /* TextField.swift in Sources */,
 				4A5A1731289A87320084B2AA /* HomeViewModel.swift in Sources */,
 				4A5A1735289BA2FE0084B2AA /* LoginScreenExtension.swift in Sources */,
+				18E3B9872A27659300CC1D04 /* Reachability.swift in Sources */,
 				4A5A172B289A81AC0084B2AA /* CartDataModels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
